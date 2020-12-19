@@ -1,3 +1,27 @@
+# Data Project Template
+
+## **Summary**
+This repo has two different python files_
+- **simple_script.py**: running this file gives as an output a simple message showing "Hello, my name is {name}" where {name} can be whatever introduced in the code.
+- **Calculator.py**: This is a slighly more complex code, where it calculates the sum, substract, multiplication and division of the desired values.
+
+## **Status**
+Version 1.0
+
+-  **simple_script.py**: changed default name to 'Alvaro'
+- **Calculator.py**: code issues solved to output correctly the results (adjustments in names and number types)
+
+## **Folder structure**
+```
+└── data_project_template
+    ├── data
+    │   ├── credentials
+    ├── .gitignore
+    ├── .git
+    ├── README.md
+    ├── simple_script.py
+    ├── Calculator.py
+```
 # data_project_template
 Bootcamp data project template
 # Data Project README file

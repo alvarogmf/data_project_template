@@ -50,13 +50,13 @@ def compute(operation, *args):
         return float(res)
     
     # Multiplication
-    if len(args) > 1 and operation == "mult":
+    if len(args) > 1 and operation == "mul":
         res = np.prod(args)
         print(res)
         return float(res)
         
         
-compute("sum", 5,2,3)
-compute("sub", 5,2.0)
-compute("Mul", 5,2,3)
+compute("add", 5,2,3) #there was sum, instead of add
+compute("sub", 5,2) #there was a float, not an integer
+compute("mul", 5,2,3) #it had a capital letter, plus the calculation had mult, not mul
 compute("div", 5,2)
